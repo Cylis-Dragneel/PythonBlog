@@ -7,8 +7,16 @@
         <header>
             <h1><a href="/">Cylis' Personal Blog</a></h1>
         </header>
+        {% for post in posts %}
+          <article>
+             <time>published: {{ post.published_date }}</time>
+             <h2><a href="">{{ post.title }}</a></h2>
+             <p>{{ post.text|linebreaksbr }}</p>
+          </article>
+        {% endfor %}
 
-        <article>
+
+        <!-- <article>
             <time>published: 14.06.2014, 12:14</time>
             <h2><a href="">Scrcpy: The best Mirroring Utility for your Android Phone</a></h2>
             <p></p>
@@ -16,8 +24,8 @@
 
         <article>
             <time>published: 14.06.2014, 12:14</time>
-            <h2><a href="">openSUSE Tumbleweed</a></h2>
+            <h2><a href="">openSUSE Tumbleweed</a></h2> 
             <p></p>
-        </article>
+        </article>-->
     </body>
 </html>
