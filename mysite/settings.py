@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1%wc!ue48p&@m+opty7kxjma26_urst+evg2tjjt^)(dt3g6o#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['cylis.is-a.dev','localhost','127.0.0.1', '.pythonanywhere.com']
 
 
 # Application definition
